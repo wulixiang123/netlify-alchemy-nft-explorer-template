@@ -138,7 +138,7 @@ export default function NFTGallery({}) {
                 justifyContent: "end",
               }}
             >
-              <p>Hide spam</p>
+              <p>隐藏垃圾邮件</p>
               <label className={styles.switch}>
                 <input
                   onChange={(e) => setSpamFilter(e.target.checked)}
