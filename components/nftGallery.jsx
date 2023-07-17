@@ -80,7 +80,7 @@ export default function NFTGallery({}) {
     <div className={styles.nft_gallery_page}>
       <div>
         <div className={styles.fetch_selector_container}>
-          <h2 style={{ fontSize: "20px" }}>Explore NFTs by</h2>
+          <h2 style={{ fontSize: "20px" }}>尚硅谷~~~</h2>
           <div className={styles.select_container}>
             <select
               defaultValue={"wallet"}
@@ -110,14 +110,14 @@ export default function NFTGallery({}) {
                 }}
                 defaultValue={process.env.ALCHEMY_NETWORK}
               >
-                <option value={"ETH_MAINNET"}>Mainnet</option>
+                <option value={"ETH_MAINNET"}>主网</option>
                 <option value={"MATIC_MAINNET"}>Polygon</option>
                 <option value={"ETH_GOERLI"}>Goerli</option>
-                <option value={"MATIC_MUMBAI"}>Mumbai</option>
+                <option value={"MATIC_MUMBAI"}>孟买</option>
               </select>
             </div>
             <div onClick={() => fetchNFTs()} className={styles.button_black}>
-              <a>Search</a>
+              <a>搜索</a>
             </div>
           </div>
         </div>
@@ -125,7 +125,7 @@ export default function NFTGallery({}) {
 
       {isLoading ? (
         <div className={styles.loading_box}>
-          <p>Loading...</p>
+          <p>加载中...</p>
         </div>
       ) : (
         <div className={styles.nft_gallery}>
