@@ -80,7 +80,7 @@ export default function NFTGallery({}) {
     <div className={styles.nft_gallery_page}>
       <div>
         <div className={styles.fetch_selector_container}>
-          <h2 style={{ fontSize: "20px" }}>尚硅谷~~~</h2>
+          <h2 style={{ fontSize: "20px" }}>找我免费领取谷歌账号哦</h2>
           <div className={styles.select_container}>
             <select
               defaultValue={"wallet"}
